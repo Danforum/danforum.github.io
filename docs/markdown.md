@@ -1,59 +1,49 @@
-# Lucky kávézó
-
-# Legnagyobb cím (H1)
-## Kisebb cím (H2)
-### Még kisebb cím (H3)
-#### Cím H4
-##### Cím H5
-###### Cím H6
-
----
+# címsor 1
+## címsor 2
 
 
-**Félkövér szöveg**
-*Dőlt szöveg*
+## Felsorolások
 
----
+### Számozatlan
 
+- ez egy
+- számozatlan
+- felsorolás
 
-- Első elem
-- Második elem
-  - Aláelem
+### Számozott
 
+1. ez már
+2. számozott
+3. felsorolás
 
----
+### Automatikus számozás
 
+1. itt most
+1. automatikusan
+1. adja meg a számokat.
 
-1. Első elem
-2. Második elem
-3. Harmadik elem
+## Példakód
 
+### Soron belüli
 
-[Szöveg a linkhez](https://www.pelda.hu)
+A `<br>` a sortörést jelöli.
 
----
+### Kódblokk
 
+```css
+body {
+	background-color: red;
+}
+```
 
-![Kép leírása](https://www.pelda.hu/kep.jpg)
+## Kiemelés
 
----
-
-`kód`
-
----
-
-
-> Ez egy citált szöveg.
-
-
----
-
-
-| Név      | Kor | Város     |
-|----------|-----|-----------|
-| Péter    | 25  | Budapest  |
-| Anna     | 30  | Szeged    |
-| János    | 35  | Pécs      |
+_Ez a szöveg dőlt_, __míg ez pedig félkövér__
 
 
----
+### Táblázat
+
+| A   | B       | C        |
+|----:|:-------:|---------:|
+|Nagy |Lajos    |fotós     |
+|Kis  |Annamária|sportoló  |

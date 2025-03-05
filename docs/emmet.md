@@ -1,36 +1,11 @@
-! 
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-```
-
-```html
-<nav>
-    <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
-        <li><a href="#">Link 5</a></li>
-    </ul>
-</nav>
-```
-
-
-### 3. Képes galéria
-
-#### Emmet kód:
-```emmet
-section.gallery>div.image*4>img[src="image.jpg"]+p.caption
-
-
+|      rövidítés      |                jelentés               |
+|:-------------------:|:--------------------------------------|
+|  `html:5` vagy `!`  | HTML alap kód                         |
+|        `p`          | HTML tag `<p></p>`                    |
+|       `img`         | HTML tag `<img src="" alt="">`        |
+|       `p.x`         | Bekezdés + class `<p class="x"></p>`  |
+|      `h1#y`         | Címsor 1 + id `<h1 id="y"></h1>`      |
+|       `.z`          | Tag nélkül div `<div class="z"></div>`|
+|   `h1#cim.x.y.z`    | `<h1 id="cim" class="x y z"></h1>`    |
+|      `ul>li*5`      | Öt elemű számozatlan lista            |
+|    `h1+img+p`       | `<h1></h1><img src="" alt=""><p></p>` |
